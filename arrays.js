@@ -31,7 +31,7 @@ function removeElementFromBeginningOfArray(a) {
   return a.slice(1)
 }
 
-function destructivelyRemoveElementFromEndOfArray() {
+function destructivelyRemoveElementFromEndOfArray(a) {
   a.pop()
   return a
 }
