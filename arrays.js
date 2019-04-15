@@ -22,20 +22,4 @@ function accessElementInArray(a, b) {
   return a[b]
 }
 
-destructivelyRemoveElementFromBeginningOfArray(a) {
-  a.shift()
-  return a
-}
 
-function removeElementFromBeginningOfArray(a) {
-  return a.slice(1)
-}
-
-function destructivelyRemoveElementFromEndOfArray(a) {
-  a.pop()
-  return a
-}
-
-function removeElementFromEndOfArray(a) {
-  return a.slice(-1)
-}
