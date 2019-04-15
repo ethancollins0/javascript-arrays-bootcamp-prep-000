@@ -26,3 +26,7 @@ function destructivelyRemoveElementFromBeginningOfArray(a) {
   a.shift()
   return a
 }
+
+function removeElementFromBeginningOfArray(a) {
+  
+}
